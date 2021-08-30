@@ -9,7 +9,7 @@ Vagrant.configure("2") do |config|
   config.vm.provider "virtualbox" do |v|
     v.name = "master.puppet.vm"
     v.memory = MEMORY
-    v.cpus = CPUS
+    v.cpus = CPUSss
   end
 
 end  
